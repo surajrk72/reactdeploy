@@ -1,0 +1,83 @@
+#search{
+    width: 100%;
+    height: 300px;
+    /* background-image: url('https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/f3ukvdjbxyvb1ojvax5k'); */
+    background-image: url('https://media.california.com/media/_versions/articles/takeout_food__3864x2728___v1222x580.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+
+#black{
+    background-color: rgba(0, 0, 0, 0.585);
+    width: 100%;
+    height: 300px;
+}
+
+#logo{
+    height: 150px;
+    width: 150px;
+    background-color:bisque;
+    margin-left: 43%;
+    border-radius: 50%;
+    margin-top: 3%;
+    position: absolute;
+  
+}
+
+#heading{
+    margin-top: 15%;
+    margin-left: 35%;
+    color: #04d7fdfa;
+    font-size: 35px;
+    position: absolute;
+}
+
+#dropdown{
+    margin-top: 20%;
+    margin-left: 28%;
+    height: 60px;
+    width: 50%;
+    position: absolute;
+}
+
+select{
+    height: 40px;
+    width: 30%;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family:  Calibri;
+    text-align: center;
+    color:white;
+    background-color: rgb(204 164 141 / 45%);
+}
+
+select > option{
+    font-size: small;
+    background-color: #000000bd;
+}
+.restSelect{
+    margin-left: 2%;
+    width: 60%;
+}
+
+.blinking {
+    animation: blinker 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+    color: #fffdfd;
+    font-family: auto
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+#bikeImage{
+    height: 150px;
+    width: 150px;
+    margin-left: 5%;
+    position: absolute
+  
+   
+}

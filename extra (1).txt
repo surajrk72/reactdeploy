@@ -1,0 +1,450 @@
+https://code.visualstudio.com/ (Install)
+https://nodejs.org/en/ (Install)
+https://git-scm.com/downloads (Install)
+https://github.com/ (signup)
+https://github.com/Aakashdeveloper (follow)
+
+Extensions
+> vscode-icons
+> Code Spell Checker
+> githistory
+> gitlens
+
+
+html
+css
+bootstrap 3,4,5
+Basic Javacript during react (if else, function,loop, array, object)
+Npm
+React = 4
+Mock API
+json-server
+React_hooks -1
+React-JWT(Login Logout)-2
+Deployment
+-> MERN
+-> ReactPy
+-> Netlify
+-> Nginx
+-> Jenkins
+-> Aws
+-> Docker
+-> Github Action
+
+Basic React Native- 1
+HOC
+React-GraphQL - 1 
+React-Redux - 1
+React-Redux With Hooks - 1
+React-PWA - 1
+React-map -1
+Testing Jest Enzime
+Github
+///////Walkthrough///////
+React-Saga -1
+React-with-typescript-1
+
+React-Query - 1
+--------NOT Backend--------------
+API
+GraphQL
+Login/Logout
+
+//////////////////////////////
+React
+>> React is a frontend lib/framework
+which help to build single page application
+using component based structure
+
+Open Source> Anybody can contributes to development
+
+2,284,812
+
+JSON
+> JavaScript Object notation
+> Way to represent the data
+> Key value pair
+[
+    {
+        "name":"Aarti",
+        "city":"Paris"
+    },
+    {
+        "name":"Aditya",
+        "city":"Delhi",
+        "age":23
+    }
+]
+
+////////
+package.json
+////////
+> First file of the application
+> Entry point to app
+> Name, version, description
+> What all packages we require
+> Script (start,stop,build,test)
+
+
+//// Step to generate package.json/////
+* NodejS must be install in laptop
+> open the terminal and go inside the folder
+> npm init
+> Answer all questions
+> type "yes"
+
+/// Step to install Package
+* NodejS must be install in laptop
+> open the terminal and go inside the folder
+> npm install packagename
+
+
+/// Step to generate React App
+# Windows
+* One Time step in new laptop
+> open cmd as adminstrator
+> npm i -g create-react-app
+
+* Every time you need new app
+> open cmd 
+> go inside folder where you want app
+> create-react-app appname
+
+# Mac/Linux
+* One Time step in new laptop
+> open terminal
+> sudo npm i -g create-react-app
+
+* Every time you need new app
+> open terminal 
+> go inside folder where you want app
+> create-react-app appname
+
+# office laptop/short cut
+> open cmd 
+> go inside folder where you want app
+> npx create-react-app appname
+
+// Step to run the react app
+> open cmd 
+> go inside the application
+> npm start
+
+
+react > Main package of the application
+react-dom > Help to render content on the browser
+react-script > Help to compile the application
+
+function add(a,b){
+    return a,b
+}
+
+add(5,4)
+4
+add(4,5)
+5
+
+function add(a,b){
+    let out = [a,b]
+    return out
+}
+
+add(2,4)
+
+
+
+HTML > Main Tag of the page
+HEAD > All the script, css
+Body > All the content visible to user
+
+Block Level
+> Those who always start from new line
+> Take whole width of screen
+Inline 
+> Start from the available space
+> Only take the space required for text
+
+Name
+Image
+About You
+Skills
+Hobbies
+Map
+Social link in footer
+
+css
+> Inline
+> StyleTag
+> Stylesheet
+
+
+Inline > StyleTag > Stylesheet
+
+
+inline{
+    color:red;
+    height:50px;
+    background:green
+}
+
+styleTag{
+     color:orange;
+     width:90px;
+     font-size:30px;
+}
+
+Stylesheet{
+    font-size:35px;
+    height:70px;
+    z-index:100
+}
+
+
+{
+   color:red;
+   height:50px;
+   background:green;
+   width:90px;
+   font-size:30px;
+   z-index:100;
+}
+
+///// identifier
+Id 
+> unique identifier
+> target using #
+ClassName 
+> To target group of elements
+> Target using .
+Tagname
+
+id > ClassName
+
+
+NODEJS @ 7:00 AM (IST) by Mr. Aakash from 20th Feb.
+Link: zoom.us/j/84222203724
+
+
+
+position:absolute
+position:relative
+
+xs < 768px
+sm > = 768px
+md > 992px
+lg > 1200px
+
+//video
+React JS @ 8:00 PM (IST) by Mr. Aakash
+ Day-1 https://youtu.be/yz742iqKcf4
+ Day-2 https://youtu.be/mIeSdgpS82o
+ Day-3 https://youtu.be/v6LW2-49IDw
+ Day-4 https://youtu.be/QI4GnGRcl3U
+ Day-5 https://youtu.be/32CbGRMKa
+ Day-6 https://youtu.be/XtF6VRppOOQ
+
+
+ ///////////////////
+ Class 
+ > Logical Component
+ > Api, Logics, Display
+ > We can maintain the state
+
+ functional 
+ > Dumb Component
+ > Mainly Use for Display
+ > We cannot maintain the state
+
+
+ HooksComponent
+
+
+/////////////////
+state
+> Act like a local variable
+> Every component can have its own state
+> We can update the value of state
+> Whenever state update component will rerender
+> Any Data interaction will happen through state
+
+Props
+> Help to transfer data between 2 nested components
+> we cannot update the value of props
+
+> Parent > Child (Props)
+> Child > Parent (Props with callback)
+
+//parent
+function add(a,b){
+    return a+b
+}
+
+// child 
+add(3,6)
+
+Map
+filter
+
+var a = [5,7,1,4,2];
+a.map((data) => {return data*2})
+ [10, 14, 2, 8, 4]
+
+var b = [5,23,12,41,8,20]
+b.filter((data) => { return data>20})
+[23, 41]
+
+
+var b = [5,23,12,41,8,20]
+b.map((data) => { return data>20})
+[false, true, false, true, false, false];
+
+
+var a = [0,1,2,3]
+a.filter((data) => {return data*2})
+[1, 2, 3]
+
+
+var b = [5,23,12,41,8,20]
+b.indexOf(23)
+1
+b.indexOf(11)
+-1
+b.indexOf(8)
+4
+b.indexOf(5)
+0
+b.indexOf(3)
+-1
+
+
+Routing 5
+Routing 6
+
+
+npm i react-router-dom
+
+npm i react-router-dom@5.3.0
+
+////////
+Params
+> What you pass after /
+> if you want to pass than decleare it
+> should be use for 1 or 2 values only
+
+QueryParams
+> What you pass after ?
+> no need ro decleare
+> Can be use for multiple values
+
+
+// default props for routing5
+> match >> Params
+> location >> QueryParams
+> history >> Redirection
+
+?page=2
+PostDetails.js:5 2
+PostDetails.js:4 ?page=3&chapter=2
+PostDetails.js:5 3&chapter
+var a = "?page=3&chapter=2"
+undefined
+a.split('&')
+(2) ['?page=3', 'chapter=2']
+a.split('&')[1].split('=')[1]
+'2'
+
+
+(get) cityname >           http://3.17.216.66:4000/location
+(get) restwrtcity >        http://3.17.216.66:4000/restaurant?stateId=1
+(get) quickSearch>         http://3.17.216.66:4000/quicksearch
+
+(get) onbasisofMeal >      http://3.17.216.66:4000/restaurant?mealtype_id=
+(get) cuisinefilter >      http://3.17.216.66:4000/filter/4?cuisine=1
+(get) costfilter >         http://3.17.216.66:4000/filter/1?hcost=1000&lcost=500
+
+(get) restdetails >        http://3.17.216.66:4000/details/1
+(get) menu >               http://3.17.216.66:4000/menu/1
+
+(post) orderspage >        http://3.17.216.66:4000/menuItem
+                           body [1,4,5]
+(post)placeOrder >        
+
+(get) allorder>            
+       
+(get) restaurants>         http://3.17.216.66:4000/restaurants
+
+
+/////////////
+/******GetAllUser*****/
+(GET)> http://3.17.216.66:5000/api/auth/users
+
+/******Register*****/
+(POST)> http://3.17.216.66:5000/api/auth/register
+(body) => {"name":"Aakash", "email":"aa@gmail.com","password":"12345678","phone":343432,role?":"user"}
+
+/******Login*****/
+(POST) => http://3.17.216.66:5000/api/auth/login
+(body)  => {"email":"aa@gmail.com","password":"12345678"}
+(response)=> {auth:true,token:'dgsdg'}
+
+/******UserInfo*****/
+(GET) => http://3.17.216.66:5000/api/auth/userinfo
+(Header) => {'x-access-token':'token value from login'}
+
+
+//////////
+//es5 
+var a = 10
+var b = "My age is "+a
+"My age is 10"
+
+//es6
+var a = 10
+var b = `My age is ${a}`
+"My age is 10"
+
+if(a.indexOf(4)>-1){
+    a.splice(a.indexOf(4),1)
+}
+
+////////
+> open cmd as admin
+npm i -g json-server
+
+////////
+json-server --watch order.json --port 8300
+
+
+https://github.com/Aakashdeveloper/GoogleLoginReact
+download
+npm i
+add secerts form google cloud
+npm start
+
+//////
+Step to generate react native app
+> npx create-react-native-app appname
+
+
+https://www.codingame.com/playgrounds/8595/reactjs-higher-order-components-tutorial
+
+
+it will take argument as 
+data and argument as 
+return component with data
+
+HOC take argument as argument as  and return component
+
+https://github.com/Aakashdeveloper/react-interview-questions
+
+
+
+
+npm i -g json-server
+
+json-server --watch orders.json --port 8000
+
+json-server --watch register.json --port 8001
+
+json-server --watch users.json --port 8002
+

@@ -1,0 +1,31 @@
+/* *{
+    border: 1px solid red;
+} */
+body{
+    margin:auto;
+    /* background-image: url('https://images.saymedia-content.com/.image/t_share/MTk0MzMyMTg3NTYxMzcxMzEz/react-animated-background.jpg'); */
+    
+    background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4MTU5NDg4NC1pbWFnZS1rd3Z4cnkzaC5qcGc.jpg');
+    background-size: cover;
+    
+}
+a{
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width:1000px){
+ 
+    .tileContainer{
+        width:45%
+    }
+}
+
+
+@media screen and (max-width:600px){
+   
+    .tileContainer{
+        width:100%
+    }
+}

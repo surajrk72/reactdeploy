@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": "106809286825654785112",
+      "displayName": "suraj rk",
+      "name": {
+        "familyName": "rk",
+        "givenName": "suraj"
+      },
+      "emails": [
+        {
+          "value": "kurersuraj7@gmail.com",
+          "verified": true
+        }
+      ],
+      "photos": [
+        {
+          "value": "https://lh3.googleusercontent.com/a/ACg8ocKxvNZmoqt6VBZpQN3iKAjhNbLx7lZ7iHhswW-_EcyR=s96-c"
+        }
+      ],
+      "provider": "google",
+      "_raw": "{\n  \"sub\": \"106809286825654785112\",\n  \"name\": \"suraj rk\",\n  \"given_name\": \"suraj\",\n  \"family_name\": \"rk\",\n  \"picture\": \"https://lh3.googleusercontent.com/a/ACg8ocKxvNZmoqt6VBZpQN3iKAjhNbLx7lZ7iHhswW-_EcyR\\u003ds96-c\",\n  \"email\": \"kurersuraj7@gmail.com\",\n  \"email_verified\": true,\n  \"locale\": \"en-GB\"\n}",
+      "_json": {
+        "sub": "106809286825654785112",
+        "name": "suraj rk",
+        "given_name": "suraj",
+        "family_name": "rk",
+        "picture": "https://lh3.googleusercontent.com/a/ACg8ocKxvNZmoqt6VBZpQN3iKAjhNbLx7lZ7iHhswW-_EcyR=s96-c",
+        "email": "kurersuraj7@gmail.com",
+        "email_verified": true,
+        "locale": "en-GB"
+      }
+    },
+    {
+      "id": "103962696593384082345",
+      "displayName": "suraj kurer",
+      "name": {
+        "familyName": "kurer",
+        "givenName": "suraj"
+      },
+      "emails": [
+        {
+          "value": "surajrkurer777@gmail.com",
+          "verified": true
+        }
+      ],
+      "photos": [
+        {
+          "value": "https://lh3.googleusercontent.com/a/ACg8ocJX5x_jHECK38GYZYQDCZm35DbL71zCjV7zouu5fcitGuo=s96-c"
+        }
+      ],
+      "provider": "google",
+      "_raw": "{\n  \"sub\": \"103962696593384082345\",\n  \"name\": \"suraj kurer\",\n  \"given_name\": \"suraj\",\n  \"family_name\": \"kurer\",\n  \"picture\": \"https://lh3.googleusercontent.com/a/ACg8ocJX5x_jHECK38GYZYQDCZm35DbL71zCjV7zouu5fcitGuo\\u003ds96-c\",\n  \"email\": \"surajrkurer777@gmail.com\",\n  \"email_verified\": true,\n  \"locale\": \"en\"\n}",
+      "_json": {
+        "sub": "103962696593384082345",
+        "name": "suraj kurer",
+        "given_name": "suraj",
+        "family_name": "kurer",
+        "picture": "https://lh3.googleusercontent.com/a/ACg8ocJX5x_jHECK38GYZYQDCZm35DbL71zCjV7zouu5fcitGuo=s96-c",
+        "email": "surajrkurer777@gmail.com",
+        "email_verified": true,
+        "locale": "en"
+      }
+    }
+  ]
+}

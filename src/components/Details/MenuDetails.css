@@ -1,0 +1,17 @@
+#rocky  img{
+    border-radius: 50%;
+}
+/* *{
+    border: 1px solid black;
+} */
+
+#spanId{
+    display: flex;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+#spanId span{
+    margin-left: 2%;
+}

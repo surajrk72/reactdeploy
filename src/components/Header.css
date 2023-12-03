@@ -1,0 +1,43 @@
+body{
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    height: 60px;
+    background-color: rgb(107 59 21 / 32%);
+
+    
+
+}
+
+#brand{
+    font-size: 30px;
+   
+    color:#b30404;
+    font-weight: bold;
+    float: left;
+    margin-left: 2%;
+    margin-top: 1px;
+    
+}
+
+.btn-default {
+    color: #ffffff;
+    background-color: #5796a7a3;
+    border-color: #5796a7a3;
+    font-family: emoji;
+}
+
+#social{
+    float: right;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+
+.socialIcon{
+    height: 50px;
+    width: 50px;
+}
