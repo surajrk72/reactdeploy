@@ -13,10 +13,19 @@ pipeline{
             }
         }
        
-        stage("Deploy"){
+       stage("Deploy") {
             steps {
-                bat "rmdir -rf /usr/local/var/www/react-app/build"
-                bat "cp -R /Users/swati/.jenkins/workspace/reactnov/build  /usr/local/var/www/react-app/build"
+                script {
+                    // Use different commands based on the operating system
+                    if (isUnix()) {
+                        sh "rm -rf /usr/local/var/www/react-app/build"
+                    } else {
+                        bat 'rd /s /q C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\reactnov\\build'
+                    }
+
+                    // Copy files (adjust the source and destination accordingly)
+                    sh 'xcopy /s /e /y /i C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\reactnov\\build C:\\path\\to\\destination\\build'
+                }
             }
         }
     }
