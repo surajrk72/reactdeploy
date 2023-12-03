@@ -15,7 +15,7 @@ pipeline{
         stage("Deploy"){
             steps {
                 sh "rm -rf /usr/local/var/www/react-app/build"
-                sh "cp -R /Users/aakash/.jenkins/workspace/reactnov/build  /usr/local/var/www/react-app/build"
+                sh "cp -R /Users/swati/.jenkins/workspace/reactnov/build  /usr/local/var/www/react-app/build"
             }
         }
     }
