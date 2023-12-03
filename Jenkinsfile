@@ -24,7 +24,7 @@ pipeline{
                     }
 
                     // Copy files (adjust the source and destination accordingly)
-                    sh 'xcopy /s /e /y /i C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\reactnov\\build C:\\path\\to\\destination\\build'
+                    bat 'xcopy /s /e /y /i C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\reactnov\\build C:\\path\\to\\destination\\build'
                 }
             }
         }
