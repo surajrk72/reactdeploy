@@ -15,7 +15,7 @@ pipeline{
        
         stage("Deploy"){
             steps {
-                bat "rm -rf /usr/local/var/www/react-app/build"
+                bat "rmdir -rf /usr/local/var/www/react-app/build"
                 bat "cp -R /Users/swati/.jenkins/workspace/reactnov/build  /usr/local/var/www/react-app/build"
             }
         }
